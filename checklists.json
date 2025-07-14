@@ -1,0 +1,37 @@
+{
+    "usuarios": {
+        "user@example.com": "scrypt:32768:8:1$GDcmYCPpZCEFOR9k$697b7ca2028bfee418895758ebf27ca5592d40691815f4090d5f8f996b34ed63bc9e84bd8734c90989bbc4671195a4a89e2151a3d4cf6dedc4b4c6eec53d38d0",
+        "admin@flash": {
+            "nome": "Davi Panho dos Santos",
+            "senha": "scrypt:32768:8:1$BzYVxDPUt0r1WVIZ$2a9f61171c1f16acd6179112679925bf7be9706d120886ffc5f47b0ca089f2908ca5f7edf072791762fbd4474d2d8fb9189074da987b7585c15604d7fcc21751"
+        },
+        "Pedro@adm.com": {
+            "nome": "Pedro Macaco",
+            "senha": "scrypt:32768:8:1$TgoNGqQgPoQQp57X$cc926a4a02b5c22dab701e124579d381477bd857bc8a2f8fca57598a2f2aeddd3d84ffd0f44b2f021edd698c45f74002e456d6172949363b3612dd6af4361e84"
+        }
+    },
+    "checklists": {
+        "user@example.com": [
+            {
+                "nome": "Preenchimento de OS",
+                "passos": []
+            }
+        ],
+        "admin@flash": [
+            {
+                "nome": "Preenchimento de OS",
+                "passos": [
+                    {
+                        "texto": "INICIAR OS",
+                        "feito": false
+                    }
+                ]
+            },
+            {
+                "nome": "Sa\u00edda de OS",
+                "passos": []
+            }
+        ],
+        "Pedro@adm.com": []
+    }
+}
